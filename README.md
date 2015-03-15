@@ -2,7 +2,7 @@
 this is grunt base sample.
 
 ## install Node.js
-#### homebrew install
+##### homebrew install
 ```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -24,7 +24,7 @@ $ cd [path_to_projekt_dir]
 $ npm init
 ```
 
-### package.json sample
+###### package.json sample
 ```javascript
 {
   "name": "grunt-sample",
@@ -48,12 +48,12 @@ $ npm init
 ```
 
 ## install grunt and grunt plugin
-### grunt
+##### grunt
 ```bash
 $ npm install grunt --save-dev
 ```
 
-### grunt plugin
+##### grunt plugin
 ```
 $ npm install grunt-contrib-uglify grunt-contrib-watch --save-dev
 ```
@@ -63,7 +63,7 @@ $ npm install grunt-contrib-uglify grunt-contrib-watch --save-dev
 $ vim Gruntfile.js
 ```
 
-### Gruntfile.js sample
+###### Gruntfile.js sample
 ```javascript
 module.exports = function(grunt) {
   // Gruntの設定
@@ -98,11 +98,11 @@ module.exports = function(grunt) {
 ```
 
 ## exec grunt
-### exec default tasks
+##### exec default tasks
 ```
 $ grunt
 ```
-### exec task
+##### exec task
 ```
 $ grunt watch
 ```
