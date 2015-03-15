@@ -7,7 +7,7 @@ this is grunt base sample.
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### Node.js(npm) install
+##### Node.js(npm) install
 ```bash
 $ brew install node
 ```
