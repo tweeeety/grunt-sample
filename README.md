@@ -1,12 +1,13 @@
 # grunt-sample
-grunt base sample.
+this is grunt base sample.
 
-## homebrew install
+## install Node.js
+#### homebrew install
 ```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Node.js(npm) install
+#### Node.js(npm) install
 ```bash
 $ brew install node
 ```
